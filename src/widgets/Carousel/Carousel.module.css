@@ -1,0 +1,39 @@
+.carousel {
+    margin-top: 20px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination-container .reviews {
+    padding: 15px 25px;
+    border: 2px solid #FF4641;
+    background: transparent;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-item {
+    display: block;
+    border: none;
+    width: 4px;
+    height: 4px;
+    background: #212121;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination-item.active {
+    height: 8px;
+    width: 8px;
+    background: #FF4641;
+    transform: translateY(-2px);
+}

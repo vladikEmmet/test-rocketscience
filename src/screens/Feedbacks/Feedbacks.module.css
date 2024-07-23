@@ -1,0 +1,10 @@
+.container {
+    padding: 30px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.container h2 {
+    font-size: 1.9em;
+    letter-spacing: 0.03rem;
+}

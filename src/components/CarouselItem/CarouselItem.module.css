@@ -1,0 +1,103 @@
+.container {
+    padding: 25px 15px;
+    background: #F9F7F2;
+    width: 300px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.city-info {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.city-info p {
+    color: #212121;
+    letter-spacing: 0.5px;
+}
+
+.city-info span {
+    color: #FC4F1E;
+}
+
+.text {
+    line-height: 1.6rem;
+    margin-top: 10px;
+    max-width: 270px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.images-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.images-container img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.images-container .more {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.images-container .more .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-container .more .overlay p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.publication-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.publication-info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: #9D9D9D;
+}
+
+.comments {
+    position: relative;
+}
+
+.comments::before {
+    content: '·';
+    font-size: 1.5rem;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.publication-info button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

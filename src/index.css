@@ -1,0 +1,30 @@
+/* src/index.css */
+@font-face {
+  font-family: 'Kievit Pro';
+  src: url('./assets/fonts/KievitPro-Regular.woff2') format('woff2'),
+  url('./assets/fonts/KievitPro-Regular.woff') format('woff'),
+  url('./assets/fonts/KievitPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kievit Pro';
+  src: url('./assets/fonts/KievitPro-Bold.woff2') format('woff2'),
+  url('./assets/fonts/KievitPro-Bold.woff') format('woff'),
+  url('./assets/fonts/KievitPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kievit Pro', sans-serif;
+  background: #F9F7F2;
+  font-size: 15px;
+}

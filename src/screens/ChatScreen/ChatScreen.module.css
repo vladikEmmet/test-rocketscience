@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.container h2 {
+    font-size: 1.9rem;
+    letter-spacing: 0.03em;
+}
