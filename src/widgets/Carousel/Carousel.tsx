@@ -24,11 +24,13 @@ export const Carousel = () => {
         setCurrentImg(null);
     }
 
+    // @ts-ignore
     const handleSwiper = (swiperInstance: any) => {
         setSwiper(swiperInstance);
     }
 
     const handleSlideChange = (idx: number) => {
+        // @ts-ignore
         swiper && swiper.slideTo(idx);
         setActiveSlide(idx);
     }
@@ -119,3 +121,4 @@ export const Carousel = () => {
         </div>
     );
 };
+

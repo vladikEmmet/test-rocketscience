@@ -14,11 +14,6 @@ interface ModalProps {
     currentImg: string;
 }
 
-interface IImage {
-    id: number;
-    src: string;
-}
-
 export const CustomModal: FC<ModalProps> = ({isOpen, onClose, contentLabel, currentImg, setPrev, setNext}) => {
 
 
